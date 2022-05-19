@@ -1,0 +1,2 @@
+# Afpa-communication
+Exercise

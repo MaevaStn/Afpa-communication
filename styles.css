@@ -1,0 +1,440 @@
+body {
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.top {
+    display: flex;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.top a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20%;
+    margin-top: 1.5%;
+    font-weight: lighter;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+#trvCentre {
+    visibility: hidden;
+    width: 30px;
+    height: 30px; 
+}
+
+#questions {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    background-color: #83C5E7;
+    border: #83C5E7;
+    color: white;
+    margin-left: 19%;
+    margin-top: 15px;
+    width: 10%;
+    height: 60%;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+
+.navLeft {
+    display: flex;
+    background-color: #78B137;
+    padding-left: 25%;
+    list-style: none;
+    width: 100%;
+    outline-style: none;
+    margin-left: 5px;
+}
+
+.navLeft a {
+    color: white;
+    font-size: 18px;
+    outline-style: none;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.navRight {
+    display: flex;
+    background-color: #4CB92C;
+    padding-left: 1.5%;
+    list-style: none;
+    width: 100%;
+}
+
+.navRight a {
+    color: white;
+    font-size: 18px;
+    outline-style: none;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;;
+
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+#particulier {
+    visibility: hidden;
+    width: 30px;
+    height: 30px; 
+}
+
+#partenaire {
+    visibility: hidden;
+    width: 30px;
+    height: 30px; 
+}
+
+#entreprise {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+#nosFormations {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+#actualite {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+#groupeAfpa {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+.pinkWord {
+    color: #E1147E;
+    margin-left: 5%;
+    font-weight: lighter;
+}
+
+.accueilOr {
+    font-weight: lighter;
+    color: #606369;
+}
+
+.titreOr{
+    color: #606369;
+    margin-left: 5%;
+    padding-top: 0px;
+    font-size: 30px;
+}
+
+.titre {
+    color: #606369;
+    margin: 5%;
+    font-size: 30px;
+}
+
+.fiches {
+    color: #606369;
+    font-weight: lighter;
+    padding-top: 10px;
+    margin-left: 3.5%;
+}
+
+.contour {
+    border: 1px solid black;
+    margin: 5%;
+    margin-top: 5px;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.img1 {
+    height: 500px;
+    width: 94%;
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    filter: blur(1px);
+}
+
+.rectangle {
+    position: absolute;
+    top: 80%;
+    left: 5.5%;
+    width: 100px;
+    height: 20px;
+    background: #E1147E;
+
+}
+
+.txtOver {
+    position: absolute;
+    color: white;
+    top: 15%;
+    left: 5%;
+    font-size: 90px;
+}
+
+.sous-titre {
+    display: flex;
+    font-size: 18px;
+    margin-left: 3%;
+}
+
+.paragraphe {
+    display: flex;
+    margin-left: 3%;
+    padding-bottom: 10px;
+    width: 94%;
+    font-size: 20px;
+}
+
+.titreForm {
+    color: #606369;
+    font-size: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+
+.txtImg {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 200px;
+}
+
+.paragrapheImg {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.imgInfo {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-left: 19%;
+    margin-top: 1%;
+}
+
+.lastPart {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 350px;
+}
+
+.imgAcc {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.paragrapheAcc {
+    width: 95%;
+    height: 50%;
+    margin-right: 25px;
+    margin-top: 10%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 50px;
+    width: 100%;
+}
+
+.footLeft {
+    display: flex;
+    background-color: #78B137;
+    color: white;
+}
+
+.footLeft p {
+    margin-left: 90%;
+}
+
+.footRight {
+    display: flex;
+    background-color: #4CB92C;
+    color: white;
+}
+
+.footRight p {
+    margin-left: 10px;
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 729px){
+
+    .hamburger {
+        display: inline;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 3%;
+    }
+
+    .textTop{
+        visibility: hidden;
+    }
+   
+    .btn {
+        background-color: #83C5E7;
+        border: #83C5E7;
+        color: white;
+        margin-top: 10;
+        width: 100px;
+        height: 50%;
+        margin-left: 0; 
+       }
+
+    .navLeft {
+        display: flex;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .navLeft ul {
+        visibility: hidden;
+    }
+
+    .navRight {
+        display: flex;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .navRight ul  {
+        visibility: hidden;
+        height: 20px;
+    }
+
+    .txtOver {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .rectangle {
+        margin-top: 5px;
+    }
+
+    .titreForm {
+       margin-top: 0;
+       height: 100px;
+    }
+
+    .sous-titre {
+       width: 90%;
+       height: auto;
+    }
+
+    .paragraphe {
+        padding-bottom: 5px;
+    }
+
+    .txtImg {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        height: 530px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .imgInfo {
+        display: flex;
+        margin-top: 0;
+        margin-left: 0;
+        padding-top: 5px;
+        justify-content: center;
+        text-align: center;
+        height: 75%;
+        width: 100%;
+    }
+
+    .paragrapheImg {
+        margin-left: 3%;
+        margin-top: 0;
+    }
+
+    .lastPart {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imgAcc {
+        display: grid;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50%;
+        margin-top: 0;
+        margin-left: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imgAccompagnement {
+        height: 100%;
+        width: 100%;
+    }
+
+    .paragrapheAcc {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: center;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 3%;
+    }
+
+    .footRight p {
+        margin-left: 3px;
+    }
+
+    .footLeft p {
+        margin-left: 70%;
+    }
+}
